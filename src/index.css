@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Agustina Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Agustina Regular'), url('./assests/fonts/Agustina.woff') format('woff');
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url('./assests/fonts/Montserrat-Regular.ttf') format('woff');
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+html,
+body {
+  scroll-behavior: smooth;
+  height: 100%;
+  
+}
+body {
+  margin: 0;
+  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://cms.qz.com/wp-content/uploads/2016/07/dok_1592-pano2jj-e1469743992109.jpg?quality=75&strip=all&w=1600&h=900&crop=1");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  html,
+  body {
+    font-size: 16px;
+    line-height: normal;
+  }
+}

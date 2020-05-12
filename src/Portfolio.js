@@ -3,7 +3,7 @@ const greeting = {
   title: "Oscar Armando Luna",
   subTitle:
     "I'm a San Francisco native, and a React developer looking to gain work experience. I've been learning all I can about full-stack web development for a year and have grown partial towards using React to build my web applications.",
-  resumeLink: "https://drive.google.com/file/d/1_1pQKx80VLPiANvbpneFOYMkCLcfOvnZ/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1UzCeY24WmewEaXUxmIoNSB9iI0j_atrQ/view?usp=sharing"
 };
 
 

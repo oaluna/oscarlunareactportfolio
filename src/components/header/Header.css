@@ -50,6 +50,12 @@
   text-shadow: 1px 1px 5px white;
 }
 
+.header .logo-name:hover {
+  color: white;
+  transition: 0.2s ease-out;
+
+}
+
 /* menu */
 
 .header .menu {

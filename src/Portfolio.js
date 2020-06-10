@@ -117,7 +117,7 @@ const techStack = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  githubConvertedToken: "YmJiMTllNjJlZjUzYjhlZTNlMzRjMTM0ZmMzNTVjYjlhZjRhNjk0OQ==",
+  githubConvertedToken: "0e0848d7b154201b01f760d4b2ad9aaaed69f5b8",
   githubUserName: "oaluna"
 };
 

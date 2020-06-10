@@ -1,4 +1,4 @@
-const greeting = {
+﻿const greeting = {
   /* Your Summary And Greeting Section */
   title: "Oscar Armando Luna",
   subTitle:
@@ -108,7 +108,7 @@ const techStack = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  githubConvertedToken: "0e0848d7b154201b01f760d4b2ad9aaaed69f5b8",
+  githubConvertedToken: "ZmRlYmY1MmNhNTM4ZTE5M2VmN2JkMDExNjQ5MmExZmQ1YmUzOGExNQ==",
   githubUserName: "oaluna"
 };
 

@@ -1,16 +1,11 @@
-﻿/* Change this file to get your personal Portfolio */
-
-// Your Summary And Greeting Section
-
 const greeting = {
   /* Your Summary And Greeting Section */
   title: "Oscar Armando Luna",
   subTitle:
     "I'm a San Francisco native, and a React developer looking to gain work experience. I've been learning all I can about full-stack web development for a year and have grown partial towards using React to build my web applications.",
-  resumeLink: "https://drive.google.com/file/d/1_1pQKx80VLPiANvbpneFOYMkCLcfOvnZ/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1UzCeY24WmewEaXUxmIoNSB9iI0j_atrQ/view?usp=sharing"
 };
 
-// Your Social Media Link
 
 const socialMediaLinks = {
 
@@ -22,7 +17,6 @@ const socialMediaLinks = {
   stackoverflow: "https://stackoverflow.com/users/12301044/oscar-luna"
 };
 
-// Your Skills Section
 
 const skillsSection = {
   title: "Skills",
@@ -33,8 +27,6 @@ const skillsSection = {
     "⚡ Integration of third party services such as Firebase/ Azure / Heroku"
   ],
 
-/* Make Sure You include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -97,7 +89,6 @@ https://fontawesome.com/icons?d=gallery */
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
 
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
@@ -122,7 +113,6 @@ const openSource = {
 };
 
 
-// Some Big Projects You have worked with your company
 
 const bigProjects = {
   title: "Big Projects",
@@ -139,7 +129,6 @@ const bigProjects = {
   ]
 };
 
-// Your Achievement Section Include Your Certification Talks and More
 
 const achievementSection = {
 
@@ -242,14 +231,13 @@ const podcastSection = {
   title: "Podcasts",
   subtitle: "Coming Soon",
 
-  // Please Provide with Your Podcast embeded Link
   podcast: [ "" ]
 };
 
 const contactInfo = {
   title: "Contact Info ☎️",
   subtitle: "Hire me, buy me a coffee, or better yet, both!",
-  number: "(415) 246-7206",
+  number: "(415) 508-7194",
   email_address: "CaporalesLuna@gmail.com"
 };
 
@@ -257,7 +245,7 @@ const contactInfo = {
 
 const twitterDetails = {
 
-  userName : "OscarLilMonster"//Replace "twitter" with your twitter username without @
+  userName : "OscarLilMonster"
   
 };
 export { greeting, socialMediaLinks, skillsSection, techStack, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};

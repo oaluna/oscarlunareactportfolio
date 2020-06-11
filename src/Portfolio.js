@@ -108,8 +108,9 @@ const techStack = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  githubConvertedToken: "ZmRlYmY1MmNhNTM4ZTE5M2VmN2JkMDExNjQ5MmExZmQ1YmUzOGExNQ==",
-  githubUserName: "oaluna"
+  githubConvertedToken: "53d7a8e7cd605c5fc5138a820fda8243ea86ac37",
+  githubUserName: "oaluna",
+  showGithubProfile: "true"
 };
 
 
@@ -135,7 +136,7 @@ const achievementSection = {
   title: "Achievements And Certifications 🏆 ",
   subtitle: "TBC",
 
-  achivementsCards: [
+  achievementsCards: [
     {
       title: "",
       description: "",

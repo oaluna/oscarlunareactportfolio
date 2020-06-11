@@ -25,9 +25,6 @@ export default function GithubRepoCard({ repo }) {
         <div className="repo-stats">
           <div className="repo-left-stat">
             <span>
-              <p>{repo.node.primaryLanguage.name}</p>
-            </span>
-            <span>
               <svg aria-hidden="true" className="octicon" height="16" role="img" viewBox="0 0 10 16" width="10" fill="rgb(106, 115, 125)" className="repo-star-svg">
                 <path
                   fill-rule="evenodd"

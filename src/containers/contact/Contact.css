@@ -1,9 +1,12 @@
 .contact-div-main {
     display: flex;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 .contact-div-main > * {
     flex: 1;
+    float: left;
 }
 
 .contact-title {

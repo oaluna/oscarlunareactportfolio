@@ -1,40 +1,47 @@
-/* header */
+/* menu */
 
-.header {
-  max-width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
+.menu {
+  max-width: 70%;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-size: 30px;
+  margin: 0px 10px 250px 150px;
+  color: #fff;
 }
 
-.header ul {
-  margin: 0;
+.menu ul {
+  margin: 0px 0 20px 0;
   padding: 0;
   list-style: none;
   overflow: hidden;
   font-weight: bolder;
 }
 .grey-color {
-  color: black;
-  text-shadow: 1px 1px 3px white;
+  color: #fff;
+  text-shadow: #fff;
 }
 
-.header li a {
+.menu li a {
   display: block;
-  padding: 20px 20px;
-  color: black;
+  width: 100%;
+  padding-bottom: 100px;
+  justify-content: space-between;
+  color: white;
   font-weight: bolder;
-  text-shadow: 1px 1px 2px white;
+  font-size: 32;
   text-decoration: none;
 }
 
-.header li a:hover,
-.header .menu-btn:hover {
+.menu li a:hover,
+.menu .menu-btn:hover {
   background: none;
   color: white;
+  text-shadow: 1px 1px 10px white;
   transition: 0.3s ease-out;
 }
 
-.header .logo {
+.menu .logo {
   display: block;
   float: left;
   font-size: 1.3em;
@@ -42,7 +49,7 @@
   margin-left: 0px;
   line-height: normal;
 }
-.header .logo-name {
+.menu .logo-name {
   font-family: 'Agustina Regular';
   font-weight: bold;
   font-size: 1.5em;
@@ -51,7 +58,7 @@
   text-shadow: 1px 1px 5px white;
 }
 
-.header .logo-name:hover {
+.menu .logo-name:hover {
   color: white;
   transition: 0.2s ease-out;
 
@@ -59,7 +66,7 @@
 
 /* menu */
 
-.header .menu {
+.menu .menu {
   clear: both;
   max-height: 0;
   transition: max-height 0.2s ease-out;
@@ -67,7 +74,7 @@
 
 /* menu icon */
 
-.header .menu-icon {
+.menu .menu-icon {
   cursor: pointer;
   display: inline-block;
   padding: 28px 20px;
@@ -75,7 +82,7 @@
   user-select: none;
 }
 
-.header .menu-icon .navicon {
+.menu .menu-icon .navicon {
   background: #333;
   display: block;
   height: 2px;
@@ -84,8 +91,8 @@
   width: 18px;
 }
 
-.header .menu-icon .navicon:before,
-.header .menu-icon .navicon:after {
+.menu .menu-icon .navicon:before,
+.menu .menu-icon .navicon:after {
   background: #333;
   content: "";
   display: block;
@@ -95,61 +102,61 @@
   width: 100%;
 }
 
-.header .menu-icon .navicon:before {
+.menu .menu-icon .navicon:before {
   top: 5px;
 }
 
-.header .menu-icon .navicon:after {
+.menu .menu-icon .navicon:after {
   top: -5px;
 }
 
 /* menu btn */
 
-.header .menu-btn {
+.menu .menu-btn {
   display: none;
 }
 
-.header .menu-btn:checked ~ .menu {
+.menu .menu-btn:checked ~ .menu {
   max-height: 370px;
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon {
+.menu .menu-btn:checked ~ .menu-icon .navicon {
   background: transparent;
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon:before {
+.menu .menu-btn:checked ~ .menu-icon .navicon:before {
   transform: rotate(-45deg);
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon:after {
+.menu .menu-btn:checked ~ .menu-icon .navicon:after {
   transform: rotate(45deg);
 }
 
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+.menu .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.menu .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
 
 /* 48em = 768px */
 
 @media (min-width: 48em) {
-  .header li {
+  .menu li {
     float: right;
   }
-  .header {
+  .menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  .header .menu {
+  .menu .menu {
     max-height: none;
   }
-  .header .menu-icon {
+  .menu .menu-icon {
     display: none;
   }
 }
 @media (max-width: 960px) and (min-width: 768px) {
-  .header {
+  .menu {
     font-size: 12px;
   }
 }

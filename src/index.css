@@ -16,14 +16,14 @@ html,
 body {
   scroll-behavior: smooth;
   height: 100%;
-  
+  https://images.pexels.com/photos/3881036/pexels-photo-3881036.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
 }
 body {
   margin: 0;
   font: 19px / 23px Montserrat, "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("https://cms.qz.com/wp-content/uploads/2016/07/dok_1592-pano2jj-e1469743992109.jpg?quality=75&strip=all&w=1600&h=900&crop=1");
+  background-image: url("https://images.pexels.com/photos/3881036/pexels-photo-3881036.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;

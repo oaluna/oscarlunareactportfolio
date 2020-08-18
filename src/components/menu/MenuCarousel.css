@@ -1,0 +1,32 @@
+.carouselWrapper{
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 250px;
+  box-sizing: border-box;
+  font-size: 48px;
+  font-weight: normal;
+}
+
+.carouselWrapper, a {
+  color: azure;
+  text-shadow: 1px 4px 8px white;
+}
+
+.linkWrap {
+  position: 'absolute';
+  top: 0;
+  left: 0;
+}
+.linkWrap:hover {
+  cursor: pointer;
+  color: goldenrod;
+  text-shadow: 1px 1px 10px goldenrod;
+}
+
+li {
+  list-style-type: none;
+}
+.dn {
+  display: none;
+}

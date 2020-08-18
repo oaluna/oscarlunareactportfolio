@@ -4,7 +4,7 @@ import { gql } from 'apollo-boost'
 import './Project.css'
 import GithubRepoCard from '../../components/githubRepoCard/GithubRepoCard'
 import Button from '../../components/button/Button'
-import { openSource, socialMediaLinks } from '../../Portfolio'
+import { projects, socialMediaLinks } from '../../Portfolio'
 import { Fade } from 'react-reveal'
 
 export default function Projects() {
@@ -17,10 +17,10 @@ export default function Projects() {
   function getRepoData() {
     const client = new ApolloClient({
       uri: 'https://api.github.com/graphql',
-      request: operation => {
+      request: (operation) => {
         operation.setContext({
           headers: {
-            authorization: `Bearer ${openSource.githubConvertedToken}`
+            authorization: `Bearer ${projects.githubConvertedToken}`
           }
         })
       }
@@ -30,7 +30,7 @@ export default function Projects() {
       .query({
         query: gql`
         {
-        user(login: "${openSource.githubUserName}") {
+        user(login: "${projects.githubUserName}") {
           pinnedItems(first: 6, types: [REPOSITORY]) {
             totalCount
             edges {
@@ -57,7 +57,7 @@ export default function Projects() {
       }
         `
       })
-      .then(result => {
+      .then((result) => {
         setrepoFunction(result.data.user.pinnedItems.edges)
         console.log(result)
       })
@@ -69,7 +69,7 @@ export default function Projects() {
 
   return (
     <Fade bottom duration={1000} distance='20px'>
-      <div className='main' id='opensource'>
+      <div className='main' id='projects'>
         <h1 className='project-title'>Open Source Projects</h1>
         <div className='repo-cards-div-main'>
           {repo.map((v, i) => {

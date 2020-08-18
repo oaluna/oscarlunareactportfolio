@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import './GithubRepoCard.css'
 import { Fade } from 'react-reveal'
 
@@ -73,5 +73,125 @@ export default function GithubRepoCard({ repo }) {
         </div>
       </div>
     </Fade>
+  )
+}
+
+console.clear()
+
+const projects = [
+  {
+    githubConvertedToken: '53d7a8e7cd605c5fc5138a820fda8243ea86ac37',
+    githubUserName: 'oaluna',
+    showGithubProfile: 'true'
+  }
+]
+
+function useTilt(active) {
+  const [rect, setRect] = useState(undefined)
+  const [mouseX, setMouseX] = useState(undefined)
+  const [mouseY, setMouseY] = useState(undefined)
+
+  const ref = useRef(null)
+
+  useEffect(() => {
+    if (!ref.current || !active) {
+      return
+    }
+
+    let el = ref.current
+
+    const handleMouseMove = (e) => {
+      if (!el) {
+        return
+      }
+      if (!rect) {
+        setRect(el.getBoundingClientRect())
+      }
+      setMouseX(e.clientX)
+      setMouseY(e.clientY)
+      const px = (mouseX - rect.left) / rect.width
+      const py = (mouseY - rect.top) / rect.height
+
+      el.style.setProperty('--px', px)
+      el.style.setProperty('--py', py)
+    }
+
+    el.addEventListener('mousemove', handleMouseMove)
+
+    return () => {
+      el.removeEventListener('mousemove', handleMouseMove)
+    }
+  }, [active])
+
+  return ref
+}
+
+const initialState = {
+  projectIndex: 0
+}
+
+const projectsReducer = (state, event) => {
+  if (event.type === 'NEXT') {
+    return {
+      ...state,
+      projectIndex: (state.projectIndex + 1) % projects.length
+    }
+  }
+  if (event.type === 'PREV') {
+    return {
+      ...state,
+      projectIndex:
+        state.projectIndex === 0 ? projects.length - 1 : state.projectIndex - 1
+    }
+  }
+}
+
+function Project({ project, offset }) {
+  const active = offset === 0 ? true : null
+  const ref = useTilt(active)
+
+  return (
+    <div
+      ref={ref}
+      className='project'
+      data-active={active}
+      style={{
+        '--offset': offset,
+        '--dir': offset === 0 ? 0 : offset > 0 ? 1 : -1
+      }}>
+      <div
+        className='projectBackground'
+        style={{
+          backgroundImage: `url('${project.image}')`
+        }}
+      />
+      <div
+        className='projectContent'
+        style={{
+          backgroundImage: `url('${project.image}')`
+        }}>
+        <div className='projectContentInner'>
+          <h2 className='projectTitle'>{project.title}</h2>
+          <h3 className='projectsubtitle'>{project.subtitle}</h3>
+          <p className='projectDescription'>{project.description}</p>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function App() {
+  const [state, dispatch] = React.useReducer(projectsReducer, initialState)
+
+  return (
+    <div className='projects'>
+      <button onClick={() => dispatch({ type: 'PREV' })}>‹</button>
+
+      {[...projects, ...projects, ...projects].map((project, i) => {
+        let offset = projects.length + (state.projectIndex - i)
+        return <Project project={project} offset={offset} key={i} />
+      })}
+      <button onClick={() => dispatch({ type: 'NEXT' })}>›</button>
+    </div>
   )
 }

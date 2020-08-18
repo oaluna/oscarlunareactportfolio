@@ -1,8 +1,7 @@
 ﻿const greeting = {
   /* Your Summary And Greeting Section */
-  title: 'Oscar Armando Luna',
-  subTitle:
-    "I'm a San Francisco native, and a React developer looking to gain work experience. I've been learning all I can about full-stack web development for a year and have grown partial towards using React to build my web applications.",
+  title: 'O S C A R | A R M A N D O | L U N A',
+  subTitle: 'FrontEnd Web Developer',
   resumeLink:
     'https://drive.google.com/file/d/1W6UVH4A6LBNPs4cTE2kWRV4hFsFbMc4g/view?usp=sharing'
 }
@@ -102,7 +101,7 @@ const techStack = {
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
-const openSource = {
+const projects = {
   githubConvertedToken: '53d7a8e7cd605c5fc5138a820fda8243ea86ac37',
   githubUserName: 'oaluna',
   showGithubProfile: 'true'
@@ -236,7 +235,7 @@ export {
   socialMediaLinks,
   skillsSection,
   techStack,
-  openSource,
+  projects,
   bigProjects,
   achievementSection,
   blogSection,

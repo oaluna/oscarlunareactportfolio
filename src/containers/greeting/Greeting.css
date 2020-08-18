@@ -34,18 +34,18 @@
   line-height: 1;
   margin-top: 0px;
   color: white;
-  
-  text-shadow: 1px 1px 8px white;
+  font-weight: normal;
+  text-shadow: 1px 1px 8px black;
   margin-bottom: 0;
   padding-bottom: 0;
 }
 .greeting-text-p {
   font-size: 24px;
   line-height: 40px;
-  font-weight: bolder;
+  font-weight: lighter;
   color: white;
   margin-left: 0px;
-  text-shadow: 1px 1px 1px white;
+  text-shadow: 1px 1px 1px black;
 }
 .greeting-image-div > img {
   max-width: 75%;

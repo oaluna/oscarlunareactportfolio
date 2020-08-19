@@ -3,6 +3,7 @@ import Menu from '../components/menu/Menu'
 import Greeting from './greeting/Greeting'
 import Skills from './skills/Skills'
 import Projects from './projects/Projects'
+import SkillsList from './skills/SkillsList'
 import Contact from './contact/Contact'
 import Footer from '../components/footer/Footer'
 import Top from './topbutton/Top'
@@ -14,7 +15,7 @@ export default class Main extends Component {
         <Greeting />
         <Menu />
         <Projects />
-        <Skills />
+        <SkillsList />
         <Contact />
         <Footer />
         <Top />

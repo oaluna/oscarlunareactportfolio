@@ -1,7 +1,6 @@
 import React from 'react'
 import './Skills.css'
-import SoftwareSkill from '../../components/softwareSkills/SoftwareSkill'
-import { skillsSection } from '../../Portfolio'
+import SkillsList from './SkillsList'
 import { Fade } from 'react-reveal'
 
 export default function Skills() {
@@ -10,13 +9,7 @@ export default function Skills() {
       <div className='skills-main-div'>
         <Fade right duration={1000}>
           <div className='skills-text-div'>
-            <h1 className='skills-heading'>{skillsSection.title} </h1>
-            <SoftwareSkill />
-            <div>
-              {skillsSection.skills.map(skills => {
-                return <p className='subTitle skills-text'>{skills}</p>
-              })}
-            </div>
+            <SkillsList />
           </div>
         </Fade>
       </div>

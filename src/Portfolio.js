@@ -1,7 +1,7 @@
 ﻿const greeting = {
   /* Your Summary And Greeting Section */
   title: 'O S C A R | A R M A N D O | L U N A',
-  subTitle: 'FrontEnd Web Developer',
+  subTitle: 'WEB DEVELOPER',
   resumeLink:
     'https://drive.google.com/file/d/1W6UVH4A6LBNPs4cTE2kWRV4hFsFbMc4g/view?usp=sharing'
 }
@@ -11,20 +11,18 @@ const socialMediaLinks = {
   linkedin: 'https://www.linkedin.com/in/oscar-a-luna/',
   gmail: 'oscarluna.webdev@gmail.com',
   twitter: 'https://twitter.com/OscarLilMonster',
-  facebook: 'https://www.facebook.com/aka.kay.drama'
+  facebook: 'https://www.facebook.com/aka.kay.drama',
+  instagram: 'https://instagram.com/oscarluna.reactdev'
 }
 
 const skillsSection = {
-  title: 'Technologies',
+  title: 'T E C H N O L O G I E S',
   subTitle:
-    'I make full-stack web applications using React as either a frontend library or for server-side-rendering',
-  skills: [
-    '⚡ Develop beautiful dynamic UI components',
-    '⚡ Write unit, integration, and functional testing with Mocha and Chai',
-    '⚡ Integration of third party services such as Firebase/ Azure / Heroku'
-  ],
+    'I build and deploy full-stack web applications. I use React in most of my technology stacks to create dynamic, responsive, and accessible interfaces.'
+}
 
-  softwareSkills: [
+const softwareSkills = {
+  technologies: [
     {
       skillName: 'html-5',
       fontAwesomeClassname: 'fab fa-html5'
@@ -32,10 +30,6 @@ const skillsSection = {
     {
       skillName: 'css3',
       fontAwesomeClassname: 'fab fa-css3'
-    },
-    {
-      skillName: 'javascript',
-      fontAwesomeClassname: 'fab fa-js-square'
     },
     {
       skillName: 'bootstrap4',
@@ -47,7 +41,7 @@ const skillsSection = {
     },
     {
       skillName: 'JavaScript',
-      fontAwesomeClassname: 'fab fa-js'
+      fontAwesomeClassname: 'fab fa-js-square'
     },
     {
       skillName: 'reactjs',
@@ -81,6 +75,16 @@ const skillsSection = {
       skillName: 'VueJS',
       fontAwesomeClassname: 'fab fa-vuejs'
     }
+  ]
+}
+
+const skillsList = {
+  title: 'S K I L L S',
+  subTitle: [
+    '⚡ Build beautiful, dynamic UI components using ReactJS and other integrated libraries',
+    '⚡ Build servers using Node.js to provide API for client and for storing data',
+    '⚡ Write unit, integration, and functional testing with Mocha and Chai',
+    '⚡ Integration of third party services such as Firebase/ Azure / Heroku for deployment'
   ]
 }
 
@@ -224,6 +228,8 @@ const podcastSection = {
 }
 
 const contactInfo = {
+  title: 'C O N T A C T',
+  subTitle: 'Feel free to give me a call or drop a message',
   number: '(415) 508-7194',
   email_address: 'oscarluna.webdev@gmail.com'
 }
@@ -234,6 +240,8 @@ export {
   greeting,
   socialMediaLinks,
   skillsSection,
+  skillsList,
+  softwareSkills,
   techStack,
   projects,
   bigProjects,

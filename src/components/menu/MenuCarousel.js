@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import './MenuCarousel.css'
 
-const LINK_WIDTH = 300
+const LINK_WIDTH = 400
 const LINK_HEIGHT = 300
 const parentPad = 0
 const VISIBLELINKS = 3
@@ -11,12 +11,11 @@ const MenuCarousel = (props) => {
   const {
     linkListDisplay = [
       'P R O J E C T S',
+      'C O N T A C T',
       'S K I L L S',
-      'R E S U M E',
-      'A B O U T',
-      'C O N T A C T'
+      'A B O U T'
     ],
-    linkList = ['#projects', '#skills', '#resume', '#about', '#contact'],
+    linkList = ['#projects', '#contact', '#skills', '#about'],
     link_width = 600,
     link_height = 600,
     visibleLinks = VISIBLELINKS,

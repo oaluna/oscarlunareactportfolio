@@ -1,14 +1,13 @@
 import React from 'react'
 import './Menu.css'
 import { Fade } from 'react-reveal'
-import { greeting } from '../../Portfolio'
 import MenuCarousel from './MenuCarousel'
 
 function Menu() {
-  const linkList = ['#projects', '#skills', `#resume`, '#about', `#contact`]
+  const linkList = ['#projects', `#contact`, '#skills', '#about']
 
   return (
-    <Fade duration={1500} delay={1500}>
+    <Fade duration={1500}>
       <div>
         {linkList.length === 0 && <div>Loading...</div>}
         {linkList.length > 0 && (

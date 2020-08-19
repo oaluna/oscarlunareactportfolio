@@ -1,17 +1,23 @@
 .carouselWrapper{
   position: relative;
   overflow: hidden;
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 100px;
+  margin-top: 150px;
+  margin-left: 450px;
+  margin-bottom: 5px;
   box-sizing: border-box;
   font-size: 48px;
-  font-weight: normal;
 }
 
 .carouselWrapper, a {
+  text-decoration: none;
   color: azure;
-  text-shadow: 1px 1px 6px black;
+  text-shadow: 1px 1px 15px black;
+}
+
+.carouselWrapper li a:hover {
+  color: darkorange;
+  text-shadow: 1px 1px 10px orange;
+  transition: 0.2s ease-out;
 }
 
 .linkWrap {
@@ -21,8 +27,7 @@
 }
 .linkWrap:hover {
   cursor: pointer;
-  color: goldenrod;
-  text-shadow: 1px 1px 10px goldenrod;
+  text-shadow: 1px 1px 10px darkorange;
 }
 
 li {

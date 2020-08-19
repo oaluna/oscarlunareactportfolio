@@ -24,16 +24,12 @@
 }
 
 .skills-text-subtitle {
-  color: black;
+  color: white;
   font-size: 22px;
   font-weight: 600;
-  text-shadow: 1px 3px 8px white;
+  text-shadow: 1px 3px 8px black;
 }
 
-.greeting-text-p {
-  font-weight: 700;
-  text-shadow: 1px 1px 8px white;
-}
 
 .skills-text {
   color: black;

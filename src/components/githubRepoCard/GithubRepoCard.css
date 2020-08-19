@@ -15,8 +15,8 @@
   display: flex;
   -webkit-box-pack: justify;
   justify-content: space-between;
-  font-size: 13px;
-  color: rgb(106, 115, 125);
+  font-size: 12px;
+  color: rgb(105, 134, 168);
 }
 
 .repo-left-stat {

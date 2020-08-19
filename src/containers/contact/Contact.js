@@ -1,6 +1,7 @@
 import React from 'react'
 import './Contact.css'
 import SocialMedia from '../../components/socialMedia/SocialMedia'
+import SoftwareSkill from '../../components/softwareSkills/SoftwareSkill'
 import { contactInfo } from '../../Portfolio'
 import { Fade } from 'react-reveal'
 
@@ -25,6 +26,9 @@ export default function Contact() {
               <br />
               <br />
               <SocialMedia />
+              <br />
+              <br />
+              <SoftwareSkill />
             </div>
           </div>
         </div>

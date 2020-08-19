@@ -11,14 +11,25 @@
   display: inline-block;
   margin-right: 20px;
   margin-bottom: 20px;
-  text-shadow: 1px 1px 5px white;
+  text-shadow: 1px 1px 5px black;
+}
+
+.software-skill-inline > label {
+  display: flex;
+  margin: 20px;
+  font-size: 16px;
+  color: white;
+  font-weight: normal;
+  text-shadow: 1px 1px 4px white;
+
 }
 
 .software-skill-inline > i {
-  color: black;
+  color: #999;
 }
 
 .software-skill-inline > i:hover {
-  color: #0084ff;
+  color: #0fffff;
+  text-shadow: 1px 1px 6px white;
   transition: 0.2s ease-out;
 }

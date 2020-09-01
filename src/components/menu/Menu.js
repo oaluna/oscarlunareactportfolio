@@ -7,7 +7,7 @@ function Menu() {
   const linkList = ['#projects', `#contact`, '#skills', '#about']
 
   return (
-    <Fade duration={1500}>
+    <Fade up delay={1000} duration={1500}>
       <div>
         {linkList.length === 0 && <div>Loading...</div>}
         {linkList.length > 0 && (

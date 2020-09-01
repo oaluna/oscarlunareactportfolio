@@ -1,8 +1,7 @@
 .dev-icons {
   padding-left: 0;
   list-style: none;
-  font-size: 3rem;
-  margin-bottom: 0px;
+  font-size: 36px;
   margin-top: 0px;
   text-align: center;
 }
@@ -10,13 +9,12 @@
 .software-skill-inline {
   display: inline-block;
   margin-right: 20px;
-  margin-bottom: 20px;
   text-shadow: 1px 1px 5px black;
 }
 
 .software-skill-inline > label {
   display: flex;
-  margin: 20px;
+  margin: 30px;
   font-size: 16px;
   color: white;
   font-weight: normal;
@@ -26,10 +24,11 @@
 
 .software-skill-inline > i {
   color: #999;
+  font-Size: 30px;
 }
 
 .software-skill-inline > i:hover {
-  color: #0fffff;
-  text-shadow: 1px 1px 6px white;
+  color: #5affff;
+  text-shadow: 1px 1px 16px white;
   transition: 0.2s ease-out;
 }

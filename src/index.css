@@ -16,15 +16,15 @@ html,
 body {
   scroll-behavior: smooth;
   height: 100%;
-  https://images.pexels.com/photos/3881036/pexels-photo-3881036.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
 }
 body {
   margin: 0;
   font: 19px / 23px Montserrat, "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("https://images.pexels.com/photos/3881036/pexels-photo-3881036.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  background-image: url("https://images.pexels.com/photos/236461/pexels-photo-236461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-position: center;
+  background-position-y: 1%;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;

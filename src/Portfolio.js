@@ -1,7 +1,7 @@
 ﻿const greeting = {
   /* Your Summary And Greeting Section */
   title: 'O S C A R | A R M A N D O | L U N A',
-  subTitle: 'WEB DEVELOPER',
+  subTitle: 'WEB SOLUTIONS',
   resumeLink:
     'https://drive.google.com/file/d/1W6UVH4A6LBNPs4cTE2kWRV4hFsFbMc4g/view?usp=sharing'
 }
@@ -43,13 +43,14 @@ const softwareSkills = {
       skillName: 'JavaScript',
       fontAwesomeClassname: 'fab fa-js-square'
     },
-    {
-      skillName: 'reactjs',
-      fontAwesomeClassname: 'fab fa-react'
-    },
+    
     {
       skillName: 'nodejs',
       fontAwesomeClassname: 'fab fa-node'
+    },
+    {
+      skillName: 'reactjs',
+      fontAwesomeClassname: 'fab fa-react'
     },
     {
       skillName: 'npm',

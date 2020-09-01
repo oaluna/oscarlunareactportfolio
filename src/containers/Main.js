@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Menu from '../components/menu/Menu'
 import Greeting from './greeting/Greeting'
-import Skills from './skills/Skills'
 import Projects from './projects/Projects'
 import SkillsList from './skills/SkillsList'
 import Contact from './contact/Contact'

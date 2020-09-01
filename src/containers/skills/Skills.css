@@ -20,7 +20,7 @@
   font-size: 56px;
   font-weight: 400;
   color: white;
-  text-shadow: 1px 6px 10px black;
+  text-shadow: 1px 6px 20px white;
 }
 
 .skills-text-subtitle {
@@ -32,10 +32,10 @@
 
 
 .skills-text {
-  color: black;
+  color: white;
   font-size: 22px;
   font-weight: 600;
-  text-shadow: 1px 1px 3px white;
+  text-shadow: 1px 1px 11px white;
 }
 
 /* Media Query */

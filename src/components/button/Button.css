@@ -1,6 +1,6 @@
 .main-button {
-  background-color: #161e96;
-  border: solid 1px #161e96;
+  background-color: #a1a1a1;
+  border: 2px solid #aae6ff;
   color: white;
   font-weight: 400;
   width: max-content;
@@ -16,7 +16,7 @@
   cursor: pointer;
 }
 .main-button:hover {
-  background-color: #ffffff;
+  background-color: #aae6ff;
   color: black;
   transition: ease-in 0.3s;
 }

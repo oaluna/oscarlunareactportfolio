@@ -21,23 +21,29 @@
     font-size: 65px;
     font-weight: 400;
     color: white;
-    text-shadow: 1px 6px 6px black;
+    text-shadow: 1px 1px 15px white;
 }
 
 .contact-detail,
+.fa-phone-alt,
+.fa-envelope,
 .contact-detail-email {
-    margin-top: 20px;
-    font-size: 40px;
+    margin-top: 40px;
+    margin-right: 15px;
+    margin-bottom: 40px;
+    font-size: 48px;
     font-weight: 400;
-    color: black;
-    text-shadow: 1px 2px 3px white;
+    color: white;
+    text-shadow: 1px 1px 15px white;
     text-decoration: none;
 }
 
 .contact-detail:hover,
+.fa-phone-alt:hover,
+.fa-envelope:hover,
 .contact-detail-email:hover {
-    color: black;
-    text-shadow: 2px 2px 2px white;
+    color: orangered;
+    text-shadow: 2px 2px 15px white;
     transition: all 0.3s;
 }
 
@@ -46,11 +52,12 @@
 }
 
 .contact-text-div {
-    margin-top: 1.5rem;
+    margin-top: 2rem;
 }
 
 .contact-margin-top {
-    margin-top: 4rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
 }
 
 .contact-image-div > img {
@@ -85,6 +92,8 @@
     }
 
     .contact-detail,
+    .fa-phone-alt,
+    .fa-envelope,
     .contact-detail-email {
         font-size: 20px;
     }

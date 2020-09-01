@@ -10,10 +10,8 @@ export default function Greeting() {
       <div className='greet-main' id='greeting'>
         <div className='greeting-main'>
           <div className='greeting-text-div'>
-            <div>
-              <h1 className='greeting-text'> {greeting.title} </h1>
-              <p className='subTitle'>{greeting.subTitle}</p>
-            </div>
+              <h1 className=' greeting-text'> {greeting.title} </h1>
+              <p className='subTitle'>{greeting.subTitle}</p><br />
             <div>
               <SoftwareSkills />
             </div>

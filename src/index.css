@@ -38,3 +38,14 @@ body {
     line-height: normal;
   }
 }
+
+@media screen and(width: 320px) {
+  html,
+  body {
+    background-image: url("https://images.pexels.com/photos/236461/pexels-photo-236461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  scroll-behavior: smooth;
+  background-position: top;
+  background-size: cover;
+  background-attachment: scroll;
+  }
+}

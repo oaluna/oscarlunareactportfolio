@@ -21,7 +21,7 @@ const skillsSection = {
     'I build and deploy full-stack web applications. I use React in most of my technology stacks to create dynamic, responsive, and accessible interfaces.'
 }
 
-const softwareSkills = {
+const softwareSkillsLeft = {
   technologies: [
     {
       skillName: 'html-5',
@@ -43,11 +43,15 @@ const softwareSkills = {
       skillName: 'JavaScript',
       fontAwesomeClassname: 'fab fa-js-square'
     },
-    
     {
       skillName: 'nodejs',
       fontAwesomeClassname: 'fab fa-node'
-    },
+    }
+  ]
+}
+const softwareSkillsRight = {
+  technologies: [
+    
     {
       skillName: 'reactjs',
       fontAwesomeClassname: 'fab fa-react'
@@ -112,122 +116,6 @@ const projects = {
   showGithubProfile: 'true'
 }
 
-const bigProjects = {
-  title: 'Big Projects',
-  subtitle: 'COMING SOON',
-  projects: [
-    {
-      image: '',
-      link: ''
-    },
-    {
-      image: '',
-      link: ''
-    }
-  ]
-}
-
-const achievementSection = {
-  title: 'Achievements And Certifications 🏆 ',
-  subtitle: 'TBC',
-
-  achievementsCards: [
-    {
-      title: '',
-      description: '',
-      image: '',
-      footerLink: [
-        {
-          name: '',
-          url: ''
-        },
-        {
-          name: '',
-          url: ''
-        },
-        {
-          name: '',
-          url: ''
-        }
-      ]
-    },
-    {
-      title: '',
-      description: '',
-      image: '',
-      footerLink: [
-        {
-          name: '',
-          url: ''
-        }
-      ]
-    },
-    {
-      title: '',
-      description: '',
-      image: '',
-      footerLink: [
-        {
-          name: '',
-          url: ''
-        },
-        {
-          name: '',
-          url: ''
-        }
-      ]
-    }
-  ]
-}
-
-// Blogs Section
-
-const blogSection = {
-  title: 'Blogs',
-  subtitle: '',
-
-  blogs: [
-    {
-      url: '',
-      image: '',
-      title: '',
-      description: ''
-    },
-    {
-      url: '',
-      image: '',
-      title: '',
-      description: ''
-    }
-  ]
-}
-
-// Talks Sections
-
-const talkSection = {
-  title: 'Talks',
-  subtitle: '',
-
-  talks: [
-    {
-      title: '',
-      subtitle: '',
-      slides_url: '',
-      event_url: '',
-      image: ''
-    }
-  ]
-}
-
-// Podcast Section
-
-const podcastSection = {
-  title: 'Podcasts',
-  subtitle: 'Coming Soon',
-
-  podcast: ['']
-}
-
 const contactInfo = {
   title: 'C O N T A C T',
   subTitle: 'Feel free to give me a call or drop a message',
@@ -242,13 +130,9 @@ export {
   socialMediaLinks,
   skillsSection,
   skillsList,
-  softwareSkills,
+  softwareSkillsLeft,
+  softwareSkillsRight,
   techStack,
   projects,
-  bigProjects,
-  achievementSection,
-  blogSection,
-  talkSection,
-  podcastSection,
   contactInfo
 }

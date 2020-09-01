@@ -1,21 +1,20 @@
 .dev-icons {
   padding-left: 0;
   list-style: none;
-  font-size: 36px;
   margin-top: 0px;
   text-align: center;
 }
 
 .software-skill-inline {
   display: inline-block;
-  margin-right: 20px;
+  padding-bottom: auto;
   text-shadow: 1px 1px 5px black;
 }
 
 .software-skill-inline > label {
   display: flex;
-  margin: 30px;
-  font-size: 16px;
+  margin: 0 20px 0 20px;
+  padding: 0 20px 0 20px;
   color: white;
   font-weight: normal;
   text-shadow: 1px 1px 4px white;
@@ -24,7 +23,7 @@
 
 .software-skill-inline > i {
   color: #999;
-  font-Size: 30px;
+  font-Size: 36px;
 }
 
 .software-skill-inline > i:hover {

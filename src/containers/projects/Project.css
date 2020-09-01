@@ -3,7 +3,7 @@
   font-weight: 400;
   line-height: normal;
   color: white;
-  text-shadow: 1px 1px 10px black;
+  text-shadow: 1px 1px 20px white;
 }
 
 .startup-project-text img{
@@ -13,7 +13,7 @@
 
 .repo-cards-div-main {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
   gap: 1rem 1rem;
 }
 
